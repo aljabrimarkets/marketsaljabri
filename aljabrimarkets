@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أسواق الجبري - الروابط</title>
+    <style>
+        /* إعدادات الصفحة الأساسية */
+        body {
+            background-color: #0d0d0d; /* خلفية سوداء فخمة */
+            color: #ffffff; /* لون النص أبيض */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* لتوسيط المحتوى عمودياً */
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* تنسيق العنوان والنص */
+        h1 {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 400px;
+            font-weight: 500;
+        }
+
+        /* التنسيق المشترك للأزرار */
+        .link-btn {
+            display: block;
+            width: 280px; /* عرض موحد للأزرار */
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 15px; /* حواف دائرية ناعمة */
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .link-btn:active {
+            transform: scale(0.95); /* تأثير عند الضغط */
+        }
+
+        /* زر سناب شات */
+        .snapchat {
+            background-color: #FFFC00;
+            color: #000000;
+        }
+
+        /* زر تيك توك */
+        .tiktok {
+            background: linear-gradient(135deg, #25F4EE, #000000, #FE2C55);
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>
+        ودكم بحلا طازج كل يوم؟ <br> 
+        تابعونا على سناب شات وتيك توك ولا يفوتكم أي عرض أو صنف جديد! <br>
+        لذة تستاهل... وسعر يرضيكم وأكثر
+    </h1>
+
+    <a href="https://snapchat.com/add/aljabri_markets" class="link-btn snapchat">
+        سناب شات
+    </a>
+
+    <a href="https://www.tiktok.com/@aljabri_markets" target="_blank" class="link-btn tiktok">
+        تيك توك
+    </a>
+
+</body>
+</html>
